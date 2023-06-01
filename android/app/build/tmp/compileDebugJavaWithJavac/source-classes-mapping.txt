@@ -1,0 +1,14 @@
+com/rnnotifications/MainActivity.java
+ com.rnnotifications.MainActivity
+com/rnnotifications/MainApplication.java
+ com.rnnotifications.MainApplication
+ com.rnnotifications.MainApplication$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/rnnotifications/ReactNativeFlipper.java
+ com.rnnotifications.ReactNativeFlipper
+ com.rnnotifications.ReactNativeFlipper$1
+ com.rnnotifications.ReactNativeFlipper$2
+ com.rnnotifications.ReactNativeFlipper$2$1
+com/rnnotifications/BuildConfig.java
+ com.rnnotifications.BuildConfig

@@ -1,0 +1,386 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rnnotifications"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/home/sathish/Sathish/RnNotifications/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/home/sathish/Sathish/RnNotifications/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:5:5-66
+13-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:5:22-63
+14    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+14-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:6:5-80
+14-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.75.1] /home/sathish/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.75.1] /home/sathish/.gradle/caches/transforms-2/files-2.1/e1d669587456380c8d4e62dfc92484ee/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:react-native-firebase] /home/sathish/Sathish/RnNotifications/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-68
+16-->[:react-native-firebase] /home/sathish/Sathish/RnNotifications/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+17-->[:react-native-firebase] /home/sathish/Sathish/RnNotifications/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-79
+17-->[:react-native-firebase] /home/sathish/Sathish/RnNotifications/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:22-76
+18    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- for android -->
+18-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:5-82
+18-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:25:22-79
+19    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+20    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+21    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+22    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+23    <!-- for Samsung -->
+24    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+24-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+24-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+25    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+25-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+25-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+26    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+26-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+26-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+27    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+27-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+27-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+28    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+28-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+28-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+29    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+29-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+29-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+30    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+30-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+30-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+31    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+31-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+31-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+32    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+32-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+32-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+33    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+33-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+33-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+34    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+34-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+34-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+35    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+35-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+35-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+36    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+36-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+36-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+37    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+37-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+37-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+38    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+38-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+38-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+39    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+39-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+39-->[me.leolin:ShortcutBadger:1.1.22] /home/sathish/.gradle/caches/transforms-2/files-2.1/c11a7244ba86c9c1a426f4cd384f8398/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+40    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+40-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:5-110
+40-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:26:22-107
+41
+42    <application
+42-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:8:5-50:19
+43        android:name="com.rnnotifications.MainApplication"
+43-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:9:7-38
+44        android:allowBackup="false"
+44-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:13:7-34
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.2.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/11a797cebefefed665d4013bac2be5f6/core-1.2.0/AndroidManifest.xml:24:18-86
+46        android:debuggable="true"
+47        android:icon="@mipmap/ic_launcher"
+47-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:11:7-41
+48        android:label="@string/app_name"
+48-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:10:7-39
+49        android:roundIcon="@mipmap/ic_launcher_round"
+49-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:12:7-52
+50        android:theme="@style/AppTheme"
+50-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:14:7-38
+51        android:usesCleartextTraffic="true" >
+51-->/home/sathish/Sathish/RnNotifications/android/app/src/debug/AndroidManifest.xml:8:9-44
+52        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+52-->/home/sathish/Sathish/RnNotifications/android/app/src/debug/AndroidManifest.xml:11:9-86
+52-->/home/sathish/Sathish/RnNotifications/android/app/src/debug/AndroidManifest.xml:11:19-83
+53        <activity
+53-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:15:7-25:18
+54            android:name="com.rnnotifications.MainActivity"
+54-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:16:9-37
+55            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+55-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:18:9-86
+56            android:label="@string/app_name"
+56-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:17:9-41
+57            android:launchMode="singleTask"
+57-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:19:9-40
+58            android:windowSoftInputMode="adjustResize" >
+58-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:20:9-51
+59            <intent-filter>
+59-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:21:9-24:25
+60                <action android:name="android.intent.action.MAIN" />
+60-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:22:13-65
+60-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:22:21-62
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:23:13-73
+62-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:23:23-70
+63            </intent-filter>
+64        </activity>
+65
+66        <meta-data
+66-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:27:7-28:44
+67            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+67-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:27:19-95
+68            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+68-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:28:21-42
+69        <meta-data
+69-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:30:9-31:54
+70            android:name="com.dieam.reactnativepushnotification.notification_color"
+70-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:30:21-92
+71            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+71-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:31:21-52
+72        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+72-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:33:9-108
+72-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:33:19-105
+73        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+73-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:34:9-110
+73-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:34:19-107
+74        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+74-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:35:9-41:20
+74-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:35:19-115
+75            <intent-filter>
+75-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:36:13-40:29
+76                <action android:name="android.intent.action.BOOT_COMPLETED" />
+76-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:37:17-79
+76-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:37:25-76
+77                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+77-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:38:17-82
+77-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:38:25-79
+78                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+78-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:39:17-81
+78-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:39:25-79
+79            </intent-filter>
+80        </receiver>
+81
+82        <service
+82-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:43:9-49:19
+83            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+83-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:44:13-107
+84            android:exported="false" >
+84-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:45:13-37
+85            <intent-filter>
+85-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:46:13-48:29
+86                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+86-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:47:17-78
+86-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:47:25-75
+87            </intent-filter>
+88        </service>
+89        <service
+89-->[:react-native-firebase] /home/sathish/Sathish/RnNotifications/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:9-20:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->[:react-native-firebase] /home/sathish/Sathish/RnNotifications/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:18-89
+91            android:directBootAware="true"
+91-->[com.google.firebase:firebase-common:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+92            android:exported="false" >
+92-->[com.google.firebase:firebase-dynamic-links:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6680c69c51c8d6087b8b7566fca58188/jetified-firebase-dynamic-links-20.0.0/AndroidManifest.xml:10:13-37
+93            <meta-data
+93-->[:react-native-firebase] /home/sathish/Sathish/RnNotifications/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:13-19:85
+94                android:name="com.google.firebase.components:io.invertase.firebase.ReactNativeFirebaseAppRegistrar"
+94-->[:react-native-firebase] /home/sathish/Sathish/RnNotifications/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-116
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[:react-native-firebase] /home/sathish/Sathish/RnNotifications/node_modules/react-native-firebase/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-dynamic-links:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6680c69c51c8d6087b8b7566fca58188/jetified-firebase-dynamic-links-20.0.0/AndroidManifest.xml:11:13-13:85
+97                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+97-->[com.google.firebase:firebase-dynamic-links:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6680c69c51c8d6087b8b7566fca58188/jetified-firebase-dynamic-links-20.0.0/AndroidManifest.xml:12:17-133
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-dynamic-links:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6680c69c51c8d6087b8b7566fca58188/jetified-firebase-dynamic-links-20.0.0/AndroidManifest.xml:13:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-config:21.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/3362b8cf39691259036d9b9a22c520be/jetified-firebase-config-21.0.0/AndroidManifest.xml:32:13-34:85
+100                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+100-->[com.google.firebase:firebase-config:21.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/3362b8cf39691259036d9b9a22c520be/jetified-firebase-config-21.0.0/AndroidManifest.xml:33:17-117
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-config:21.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/3362b8cf39691259036d9b9a22c520be/jetified-firebase-config-21.0.0/AndroidManifest.xml:34:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:52:13-54:85
+103                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+103-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:53:17-119
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:54:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-datatransport:18.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+106                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+106-->[com.google.firebase:firebase-datatransport:18.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-datatransport:18.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/bf606e5670d7119405b2092a26d708a8/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+108            <meta-data
+108-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:30:13-32:85
+109                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+109-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:31:17-139
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.android.gms:play-services-measurement-api:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/2fd764fbcef7d760bfc7e9a625efd075/jetified-play-services-measurement-api-19.0.0/AndroidManifest.xml:32:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-abt:21.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/e499572bd5f45d475b84ed34ed480899/jetified-firebase-abt-21.0.0/AndroidManifest.xml:13:13-15:85
+112                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+112-->[com.google.firebase:firebase-abt:21.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/e499572bd5f45d475b84ed34ed480899/jetified-firebase-abt-21.0.0/AndroidManifest.xml:14:17-109
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-abt:21.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/e499572bd5f45d475b84ed34ed480899/jetified-firebase-abt-21.0.0/AndroidManifest.xml:15:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-installations:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+115                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+115-->[com.google.firebase:firebase-installations:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-installations:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/9e5d573d5846ec4abfa4160f8fee727f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+117        </service>
+118
+119        <activity
+119-->[com.google.android.gms:play-services-appinvite:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/59ecc95c952fc7e29c6fd1f09bc2d91d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:25:9-34:20
+120            android:name="com.google.android.gms.appinvite.PreviewActivity"
+120-->[com.google.android.gms:play-services-appinvite:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/59ecc95c952fc7e29c6fd1f09bc2d91d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:26:13-76
+121            android:exported="true"
+121-->[com.google.android.gms:play-services-appinvite:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/59ecc95c952fc7e29c6fd1f09bc2d91d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:27:13-36
+122            android:theme="@style/Theme.AppInvite.Preview" >
+122-->[com.google.android.gms:play-services-appinvite:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/59ecc95c952fc7e29c6fd1f09bc2d91d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:28:13-59
+123            <intent-filter>
+123-->[com.google.android.gms:play-services-appinvite:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/59ecc95c952fc7e29c6fd1f09bc2d91d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:29:13-33:29
+124                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+124-->[com.google.android.gms:play-services-appinvite:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/59ecc95c952fc7e29c6fd1f09bc2d91d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:30:17-90
+124-->[com.google.android.gms:play-services-appinvite:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/59ecc95c952fc7e29c6fd1f09bc2d91d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:30:25-87
+125
+126                <category android:name="android.intent.category.DEFAULT" />
+126-->[com.google.android.gms:play-services-appinvite:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/59ecc95c952fc7e29c6fd1f09bc2d91d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:32:17-76
+126-->[com.google.android.gms:play-services-appinvite:17.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/59ecc95c952fc7e29c6fd1f09bc2d91d/jetified-play-services-appinvite-17.0.0/AndroidManifest.xml:32:27-73
+127            </intent-filter>
+128        </activity>
+129        <activity
+129-->[com.google.android.gms:play-services-base:17.5.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:23:9-26:75
+130            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+130-->[com.google.android.gms:play-services-base:17.5.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:24:13-79
+131            android:exported="false"
+131-->[com.google.android.gms:play-services-base:17.5.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:25:13-37
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+132-->[com.google.android.gms:play-services-base:17.5.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/539b7be7a2b3a05a04064c89f6e7b6d2/jetified-play-services-base-17.5.0/AndroidManifest.xml:26:13-72
+133
+134        <receiver
+134-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:28:9-35:20
+135            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+135-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:29:13-78
+136            android:exported="true"
+136-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:30:13-36
+137            android:permission="com.google.android.c2dm.permission.SEND" >
+137-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:31:13-73
+138            <intent-filter>
+138-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:32:13-34:29
+139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+139-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:17-81
+139-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:33:25-78
+140            </intent-filter>
+141        </receiver>
+142        <!--
+143             FirebaseMessagingService performs security checks at runtime,
+144             but set to not exported to explicitly avoid allowing another app to call it.
+145        -->
+146        <service
+146-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:41:9-48:19
+147            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+147-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:42:13-82
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:43:13-43
+149            android:exported="false" >
+149-->[com.google.firebase:firebase-messaging:22.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/607124079ab9844ddb8838657292535d/jetified-firebase-messaging-22.0.0/AndroidManifest.xml:44:13-37
+150            <intent-filter android:priority="-500" >
+150-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:46:13-48:29
+151                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+151-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:47:17-78
+151-->/home/sathish/Sathish/RnNotifications/android/app/src/main/AndroidManifest.xml:47:25-75
+152            </intent-filter>
+153        </service>
+154        <service
+154-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:29:9-35:19
+155            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+155-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:30:13-103
+156            android:exported="false" >
+156-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:31:13-37
+157            <meta-data
+157-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:32:13-34:39
+158                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+158-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:33:17-94
+159                android:value="cct" />
+159-->[com.google.android.datatransport:transport-backend-cct:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/a714cb4a880dc5cdf911bc88638a231f/jetified-transport-backend-cct-3.0.0/AndroidManifest.xml:34:17-36
+160        </service>
+161
+162        <provider
+162-->[com.google.firebase:firebase-common:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+163            android:name="com.google.firebase.provider.FirebaseInitProvider"
+163-->[com.google.firebase:firebase-common:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+164            android:authorities="com.rnnotifications.firebaseinitprovider"
+164-->[com.google.firebase:firebase-common:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+165            android:directBootAware="true"
+165-->[com.google.firebase:firebase-common:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+166            android:exported="false"
+166-->[com.google.firebase:firebase-common:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+167            android:initOrder="100" />
+167-->[com.google.firebase:firebase-common:20.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/dd3c2617c0f6359f3b13e51ce6c2db19/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+168
+169        <service
+169-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:26:9-30:19
+170            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+170-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:27:13-117
+171            android:exported="false"
+171-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:28:13-37
+172            android:permission="android.permission.BIND_JOB_SERVICE" >
+172-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:29:13-69
+173        </service>
+174
+175        <receiver
+175-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:32:9-34:40
+176            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+176-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:33:13-132
+177            android:exported="false" />
+177-->[com.google.android.datatransport:transport-runtime:3.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/6eef7893740655964b346960fbe11f26/jetified-transport-runtime-3.0.0/AndroidManifest.xml:34:13-37
+178        <receiver
+178-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:29:9-33:20
+179            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+179-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:30:13-85
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:31:13-35
+181            android:exported="false" >
+181-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:32:13-37
+182        </receiver>
+183
+184        <service
+184-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:35:9-38:40
+185            android:name="com.google.android.gms.measurement.AppMeasurementService"
+185-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:36:13-84
+186            android:enabled="true"
+186-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:37:13-35
+187            android:exported="false" />
+187-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:38:13-37
+188        <service
+188-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:39:9-43:72
+189            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+189-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:40:13-87
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:41:13-35
+191            android:exported="false"
+191-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:42:13-37
+192            android:permission="android.permission.BIND_JOB_SERVICE" />
+192-->[com.google.android.gms:play-services-measurement:19.0.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/abd756902579ebb1360d9a807d23ce85/jetified-play-services-measurement-19.0.0/AndroidManifest.xml:43:13-69
+193
+194        <meta-data
+194-->[com.google.android.gms:play-services-basement:17.5.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:23:9-25:69
+195            android:name="com.google.android.gms.version"
+195-->[com.google.android.gms:play-services-basement:17.5.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:24:13-58
+196            android:value="@integer/google_play_services_version" />
+196-->[com.google.android.gms:play-services-basement:17.5.0] /home/sathish/.gradle/caches/transforms-2/files-2.1/819ec8c6af10e4a00a056b819af593de/jetified-play-services-basement-17.5.0/AndroidManifest.xml:25:13-66
+197    </application>
+198
+199</manifest>
